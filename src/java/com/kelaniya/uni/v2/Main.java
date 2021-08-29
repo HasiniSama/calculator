@@ -6,8 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class Main {
-
-
+    //SRP Violated
     //SOLID PRINCIPLES --> ALL THE SOLID PRINCIPLES ARE VIOLATED HERE!!!
     public static void main(String[] args) throws IOException {
 
