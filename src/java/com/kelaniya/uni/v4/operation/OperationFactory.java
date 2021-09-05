@@ -17,7 +17,11 @@ public class OperationFactory {
             case "mul":
                 operation = new MulOperation();
                 break;
-        }
+            case "div":
+                operation = new DivOperation();
+                break;
+        }// violation of OCP -> this is a known violation since factory design pattern
+        // -> in order to fix this we need to apply a dependency injection framework like Spring framework
 
         return operation;
     }
