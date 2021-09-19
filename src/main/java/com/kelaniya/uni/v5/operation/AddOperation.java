@@ -6,3 +6,6 @@ public class AddOperation implements Operation {
         return numbers[0] + numbers[1];
     }
 }
+
+//What is the responsibility of the class?
+//figure out the test cases
